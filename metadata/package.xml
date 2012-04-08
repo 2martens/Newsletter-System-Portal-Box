@@ -9,7 +9,7 @@
         
         <standalone>0</standalone>
         <isunique>0</isunique>
-        <version>1.0.0 Alpha 4</version>
+        <version>1.0.0 Beta 1</version>
         <date>2012-04-08</date>
         <plugin>com.woltlab.wbb</plugin>
     </packageinformation>
@@ -39,7 +39,6 @@
         <languages languagecode="en">language/en.xml</languages>
     </instructions>
     
-    <instructions type="update" fromversion="1.0.0 Alpha 3">
-        <templates>templates.tar</templates>
+    <instructions type="update" fromversion="1.0.0 Alpha 4">
     </instructions>
 </package>
