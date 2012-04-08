@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.wbb3addons.de" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.wbbaddons.de/XSD/portalboxitem.xsd">
+    <import>
+        <portalboxitem name="newsletterBox">
+            <className>NewsletterBox</className>
+            <boxType>2</boxType>
+            <options>module_newslettersystem</options>
+        </portalboxitem>
+    </import>
+</data>
