@@ -9,7 +9,7 @@
         
         <standalone>0</standalone>
         <isunique>0</isunique>
-        <version>1.0.0 Alpha 1</version>
+        <version>1.0.0 Alpha 2</version>
         <date>2012-04-08</date>
         <plugin>com.woltlab.wbb</plugin>
     </packageinformation>
@@ -28,6 +28,7 @@
     
     <instructions type="install">
         <files>files.tar</files>
+        <templates>templates.tar</templates>
         
         <!-- xmls -->
         <portalbox>portalbox.xml</portalbox>
@@ -36,5 +37,9 @@
         <languages languagecode="de">language/de.xml</languages>
         <languages languagecode="de-informal">language/de-informal.xml</languages>
         <languages languagecode="en">language/en.xml</languages>
+    </instructions>
+    
+    <instructions type="update" fromversion="1.0.0 Alpha 1">
+        <templates>templates.tar</templates>
     </instructions>
 </package>
