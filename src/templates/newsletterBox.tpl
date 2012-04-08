@@ -8,7 +8,7 @@
         </div>
     </div>
     <div class="container-1" id="{@$box->getStatusVariable()}">
-        <div class="containerContent">      
+        <div class="containerContent">
         {if $box->showForm}
             {if $box->isGuest}
             <form action="index.php?form=NewsletterRegisterGuest" method="post">
@@ -19,7 +19,7 @@
                                 <label for="email">{lang}wcf.acp.newsletter.subscriber.email{/lang}</label>
                             </div>
                             <div class="formField">
-                                <input type="text" class="inputText" id="email" name="email" value="{$email}" />
+                                <input type="text" class="inputText" id="email" name="email" value="" />
                             </div>
                         </div>
                         <div class="formElement" id="checkboxDiv">
@@ -27,7 +27,7 @@
                                 <label for="checkbox">{lang}wcf.user.option.acceptNewsletter{/lang}</label>
                             </div>
                             <div class="formField">
-                                <input type="checkbox" id="checkbox" name="checkbox" value="{$checkbox}" />
+                                <input type="checkbox" id="checkbox" name="checkbox" value="" />
                             </div>
                         </div>
                     </div>
@@ -43,10 +43,10 @@
                     <p>{lang}wbb.portal.box.newsletterBox.alreadySubscriber{/lang}</p>
                 {else}
                     <p>{lang}wbb.portal.box.newsletterBox.registered{/lang}
-                {/if}    
+                {/if}
             {/if}
         {else}
-            <p>{lang}wbb.portal.box.newsletterBox.editMode{/lang}              
+            <p>{lang}wbb.portal.box.newsletterBox.editMode{/lang}
         {/if}
         </div>
     </div>

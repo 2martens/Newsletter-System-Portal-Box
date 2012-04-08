@@ -7,7 +7,7 @@ Adds a portal box for the Newsletter System.
 Version notes
 -------------
 
-The currently available source code represents the version 1.0.0 Alpha 1 of NewsletterSystem and should not be used in productive environments.
+The currently available source code represents the version 1.0.0 Alpha 2 of NewsletterSystem and should not be used in productive environments.
 
 Contribution
 ------------
