@@ -38,11 +38,11 @@
                 {if $box->isSubscriber}
                     <p>{lang}wbb.portal.box.newsletterBox.alreadySubscriber{/lang}</p>
                 {else}
-                    <p>{lang}wbb.portal.box.newsletterBox.registered{/lang}
+                    <p>{lang}wbb.portal.box.newsletterBox.registered{/lang}</p>
                 {/if}
             {/if}
         {else}
-            <p>{lang}wbb.portal.box.newsletterBox.editMode{/lang}
+            <p>{lang}wbb.portal.box.newsletterBox.editMode{/lang}</p>
         {/if}
         </div>
     </div>
