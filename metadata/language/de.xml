@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="de" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/language.xsd">
+    <category name="wbb.portal">
+        <item name="wbb.portal.box.newsletterBox.title"><![CDATA[Newsletter]]></item>
+        <item name="wbb.portal.box.newsletterBox.alreadySubscriber"><![CDATA[Sie sind bereits ein Abonnent.]]></item>
+        <item name="wbb.portal.box.newsletterBox.registered"><![CDATA[In Ihrem Profil können Sie den Newsletter abonnieren.]]></item>
+        <item name="wbb.portal.box.newsletterBox.editMode"><![CDATA[Keine Daten verfügbar.]]></item>
+    </category>
+</language>
